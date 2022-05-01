@@ -22,6 +22,23 @@ public class CollectionAssisted {
     SAl.add("from ");
     SAl.add("Simple Learn");
     System.out.println(SAl);
+    
+    
+    System.out.println("\n ************************************* Example of Vector **********************");
+    //Create a vector  
+    Vector<String> vec = new Vector<String>();  
+    //Adding elements using add() method of List  
+    vec.add("Tiger");  
+    vec.add("Lion");  
+    vec.add("Dog");  
+    vec.add("Elephant");  
+    //Adding elements using addElement() method of Vector  
+    vec.addElement("Rat");  
+    vec.addElement("Cat");  
+    vec.addElement("Deer");  
+    int i = vec.capacity(); 
+    System.out.println("\n Capacity is : "+i);
+    System.out.println("Elements are: "+vec);  
 	}
 
 }
