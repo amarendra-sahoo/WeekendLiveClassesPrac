@@ -1,1 +1,1 @@
-# WeekendLiveClassesPrac
+# SimpliLearnLiveClass
