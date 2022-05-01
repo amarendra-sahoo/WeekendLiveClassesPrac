@@ -125,7 +125,8 @@ public class CollectionAssisted {
 
 		System.out.println("\nThe elements of TreeMap are ");  
 		for(Map.Entry l:map.entrySet()){    
-			System.out.println(l.getKey()+" "+l.getValue());    
+			System.out.println(l.getKey()+" "+l.getValue());
+			System.out.println("Hi.");    
 		}
 	}
 
